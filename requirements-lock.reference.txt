@@ -1,0 +1,14 @@
+# 修订实验实际运行版本；Python 3.11。torch先按README使用CUDA源安装。
+numpy==2.4.6
+pandas==3.0.3
+pyarrow==23.0.1
+scikit-learn==1.7.2
+matplotlib==3.10.7
+httpx==0.28.1
+torch==2.11.0+cu128
+transformers==5.19.0
+sentence-transformers==6.1.0
+safetensors==0.8.0
+huggingface-hub==1.33.0
+tokenizers==0.23.3
+scipy==1.17.1

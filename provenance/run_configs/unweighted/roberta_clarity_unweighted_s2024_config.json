@@ -1,0 +1,71 @@
+{
+  "model": "experiment/models/roberta-base",
+  "target": "clarity",
+  "frozen": false,
+  "class_weight": false,
+  "lr": 2e-05,
+  "batch": 8,
+  "epochs_run": 4,
+  "max_len": 512,
+  "trunc": "longest_first",
+  "seed": 2024,
+  "device": "cuda",
+  "elapsed_sec": 230.1,
+  "best_val_macro_f1": 0.458,
+  "train_log": [
+    {
+      "epoch": 1,
+      "train_loss": 0.922,
+      "train_acc": 0.5551,
+      "lr": "1.78e-05",
+      "val_acc": 0.553,
+      "val_macro_f1": 0.2374
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8247,
+      "train_acc": 0.6227,
+      "lr": "1.33e-05",
+      "val_acc": 0.6175,
+      "val_macro_f1": 0.458
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6945,
+      "train_acc": 0.7014,
+      "lr": "8.89e-06",
+      "val_acc": 0.5945,
+      "val_macro_f1": 0.4575
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5671,
+      "train_acc": 0.7629,
+      "lr": "4.44e-06",
+      "val_acc": 0.5945,
+      "val_macro_f1": 0.4474
+    }
+  ],
+  "amp": true,
+  "dynamic_padding": true,
+  "workers": 2,
+  "avg_batch_seq_len": 496.2,
+  "train_n": 3138,
+  "val_n": 217,
+  "test_n": 308,
+  "labels": [
+    "Clear Reply",
+    "Ambivalent",
+    "Clear Non-Reply"
+  ],
+  "class_weights": {
+    "Clear Reply": 1.0,
+    "Ambivalent": 1.0,
+    "Clear Non-Reply": 1.0
+  },
+  "init_from": null,
+  "run_id": "85b21a9f60ac4a508e6af85f2bc029cf",
+  "data_sha256": "d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc",
+  "prediction_precision": "bf16",
+  "decision_rule": "argmax"
+}

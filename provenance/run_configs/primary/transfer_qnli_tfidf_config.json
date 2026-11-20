@@ -1,0 +1,22 @@
+{
+  "selected_config": {
+    "name": "tfidf_uni_bi",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "class_weight": null
+  },
+  "validation_scores": {
+    "tfidf_uni": 0.6048,
+    "tfidf_uni_bal": 0.6035,
+    "tfidf_uni_bi": 0.6063,
+    "tfidf_uni_bi_bal": 0.6043
+  },
+  "criterion": "val_macro_f1",
+  "refit_on_val": false,
+  "train_n": 25514,
+  "val_n": 4486,
+  "test_n": 5463,
+  "seed": 42
+}

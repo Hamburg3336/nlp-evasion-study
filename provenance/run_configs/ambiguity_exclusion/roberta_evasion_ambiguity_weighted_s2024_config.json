@@ -1,0 +1,96 @@
+{
+  "model": "experiment/models/roberta-base",
+  "target": "evasion",
+  "frozen": false,
+  "class_weight": true,
+  "lr": 2e-05,
+  "batch": 8,
+  "epochs_run": 5,
+  "max_len": 512,
+  "trunc": "longest_first",
+  "seed": 2024,
+  "device": "cuda",
+  "elapsed_sec": 278.2,
+  "best_val_macro_f1": 0.5069,
+  "train_log": [
+    {
+      "epoch": 1,
+      "train_loss": 2.145,
+      "train_acc": 0.183,
+      "lr": "1.78e-05",
+      "val_evasion_macro_f1": 0.0375,
+      "val_acc": 0.1198,
+      "val_macro_f1": 0.2937
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.9022,
+      "train_acc": 0.2652,
+      "lr": "1.33e-05",
+      "val_evasion_macro_f1": 0.2226,
+      "val_acc": 0.3226,
+      "val_macro_f1": 0.4989
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.6471,
+      "train_acc": 0.3435,
+      "lr": "8.89e-06",
+      "val_evasion_macro_f1": 0.1909,
+      "val_acc": 0.2396,
+      "val_macro_f1": 0.4746
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.4833,
+      "train_acc": 0.4061,
+      "lr": "4.44e-06",
+      "val_evasion_macro_f1": 0.225,
+      "val_acc": 0.3272,
+      "val_macro_f1": 0.5069
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.3167,
+      "train_acc": 0.4825,
+      "lr": "0.00e+00",
+      "val_evasion_macro_f1": 0.2134,
+      "val_acc": 0.3226,
+      "val_macro_f1": 0.4903
+    }
+  ],
+  "amp": true,
+  "dynamic_padding": true,
+  "workers": 2,
+  "avg_batch_seq_len": 501.2,
+  "train_n": 3115,
+  "val_n": 217,
+  "test_n": 308,
+  "labels": [
+    "Explicit",
+    "Implicit",
+    "Dodging",
+    "General",
+    "Deflection",
+    "Partial/half-answer",
+    "Declining to answer",
+    "Claims ignorance",
+    "Clarification"
+  ],
+  "class_weights": {
+    "Explicit": 0.36548163792091987,
+    "Implicit": 0.7956577266922095,
+    "Dodging": 0.5416449313162928,
+    "General": 0.9945721583652618,
+    "Deflection": 0.9917223814071952,
+    "Partial/half-answer": 5.089869281045751,
+    "Declining to answer": 2.7252843394575677,
+    "Claims ignorance": 3.0096618357487923,
+    "Clarification": 3.978288633461047
+  },
+  "init_from": null,
+  "run_id": "fc02a4a25f5649a09e3861a916c64266",
+  "data_sha256": "a0eaa3100a27c080f55480a96ecbd5fe13bc11d70c9d0f392e381ce304301836",
+  "prediction_precision": "bf16",
+  "decision_rule": "fine_argmax_then_map"
+}

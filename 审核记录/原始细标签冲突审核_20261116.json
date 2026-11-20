@@ -1,0 +1,567 @@
+{
+  "date": "2026-11-16",
+  "raw_sha256": "eca7855ada118a526cc0361d745b0a55534ca35b8b604d2f9cec4257c5f9fcb3",
+  "coarse_conflicting_groups": 16,
+  "fine_only_conflicting_groups": 24,
+  "fine_only_raw_rows": 48,
+  "retained_roles": {
+    "train": 23,
+    "val": 1
+  },
+  "identical_before_deep_clean": 24,
+  "details": [
+    {
+      "records": [
+        {
+          "raw_index": 201,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        },
+        {
+          "raw_index": 203,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 201,
+          "label": "Ambivalent",
+          "evasion": "Dodging",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 448,
+          "coarse": "Clear Non-Reply",
+          "fine": "Claims ignorance"
+        },
+        {
+          "raw_index": 449,
+          "coarse": "Clear Non-Reply",
+          "fine": "Clarification"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 448,
+          "label": "Clear Non-Reply",
+          "evasion": "Claims ignorance",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1192,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        },
+        {
+          "raw_index": 1270,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1192,
+          "label": "Ambivalent",
+          "evasion": "Dodging",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1193,
+          "coarse": "Ambivalent",
+          "fine": "Partial/half-answer"
+        },
+        {
+          "raw_index": 1271,
+          "coarse": "Ambivalent",
+          "fine": "Implicit"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1193,
+          "label": "Ambivalent",
+          "evasion": "Partial/half-answer",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1199,
+          "coarse": "Ambivalent",
+          "fine": "Implicit"
+        },
+        {
+          "raw_index": 1279,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1199,
+          "label": "Ambivalent",
+          "evasion": "Implicit",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1241,
+          "coarse": "Ambivalent",
+          "fine": "Implicit"
+        },
+        {
+          "raw_index": 1321,
+          "coarse": "Ambivalent",
+          "fine": "Partial/half-answer"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1241,
+          "label": "Ambivalent",
+          "evasion": "Implicit",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1242,
+          "coarse": "Ambivalent",
+          "fine": "Deflection"
+        },
+        {
+          "raw_index": 1320,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1242,
+          "label": "Ambivalent",
+          "evasion": "Deflection",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1461,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        },
+        {
+          "raw_index": 1463,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1461,
+          "label": "Ambivalent",
+          "evasion": "Dodging",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1485,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        },
+        {
+          "raw_index": 1487,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1485,
+          "label": "Ambivalent",
+          "evasion": "General",
+          "role": "val"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1521,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        },
+        {
+          "raw_index": 1523,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1521,
+          "label": "Ambivalent",
+          "evasion": "Dodging",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1722,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        },
+        {
+          "raw_index": 1725,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1722,
+          "label": "Ambivalent",
+          "evasion": "General",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1730,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        },
+        {
+          "raw_index": 1732,
+          "coarse": "Ambivalent",
+          "fine": "Implicit"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1730,
+          "label": "Ambivalent",
+          "evasion": "General",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1755,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        },
+        {
+          "raw_index": 1758,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1755,
+          "label": "Ambivalent",
+          "evasion": "Dodging",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1789,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        },
+        {
+          "raw_index": 1791,
+          "coarse": "Ambivalent",
+          "fine": "Deflection"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1789,
+          "label": "Ambivalent",
+          "evasion": "General",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1790,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        },
+        {
+          "raw_index": 1792,
+          "coarse": "Ambivalent",
+          "fine": "Deflection"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1790,
+          "label": "Ambivalent",
+          "evasion": "Dodging",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1872,
+          "coarse": "Ambivalent",
+          "fine": "Deflection"
+        },
+        {
+          "raw_index": 1877,
+          "coarse": "Ambivalent",
+          "fine": "Implicit"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1872,
+          "label": "Ambivalent",
+          "evasion": "Deflection",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1873,
+          "coarse": "Ambivalent",
+          "fine": "Deflection"
+        },
+        {
+          "raw_index": 1879,
+          "coarse": "Ambivalent",
+          "fine": "Partial/half-answer"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1873,
+          "label": "Ambivalent",
+          "evasion": "Deflection",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1875,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        },
+        {
+          "raw_index": 1882,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1875,
+          "label": "Ambivalent",
+          "evasion": "General",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 1876,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        },
+        {
+          "raw_index": 1883,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 1876,
+          "label": "Ambivalent",
+          "evasion": "Dodging",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 2803,
+          "coarse": "Ambivalent",
+          "fine": "Implicit"
+        },
+        {
+          "raw_index": 2804,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 2803,
+          "label": "Ambivalent",
+          "evasion": "Implicit",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 2984,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        },
+        {
+          "raw_index": 2988,
+          "coarse": "Ambivalent",
+          "fine": "Implicit"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 2984,
+          "label": "Ambivalent",
+          "evasion": "General",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 3010,
+          "coarse": "Ambivalent",
+          "fine": "General"
+        },
+        {
+          "raw_index": 3014,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 3010,
+          "label": "Ambivalent",
+          "evasion": "General",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 3319,
+          "coarse": "Ambivalent",
+          "fine": "Deflection"
+        },
+        {
+          "raw_index": 3322,
+          "coarse": "Ambivalent",
+          "fine": "Partial/half-answer"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 3319,
+          "label": "Ambivalent",
+          "evasion": "Deflection",
+          "role": "train"
+        }
+      ]
+    },
+    {
+      "records": [
+        {
+          "raw_index": 3320,
+          "coarse": "Ambivalent",
+          "fine": "Deflection"
+        },
+        {
+          "raw_index": 3323,
+          "coarse": "Ambivalent",
+          "fine": "Dodging"
+        }
+      ],
+      "already_identical_before_deep_clean": true,
+      "retained": [
+        {
+          "_raw_idx": 3320,
+          "label": "Ambivalent",
+          "evasion": "Deflection",
+          "role": "train"
+        }
+      ]
+    }
+  ],
+  "interpretation": "Coarse-conflict removal is implemented; fine-only conflicts retain first row. No relabeling or data change performed."
+}

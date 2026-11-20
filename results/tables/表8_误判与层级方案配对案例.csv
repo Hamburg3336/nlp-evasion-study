@@ -1,0 +1,25 @@
+﻿类型／索引,金标或预测变化,问题要点与可见证据,核读说明
+"误判
+42",含混回应 → 明确回答,"是否认为以色列站在正确一方
+证据：we care deeply about the people…in Lebanon…in Israel",seed42；表达关切但未直接评价问题中的立场。
+"误判
+191",明确回答 → 含混回应,"是否相信反对派会接受对话邀请
+证据：I still haven't received a positive answer…",seed42；回应邀请的证据仍在输入内，不能直接归因为截断。
+"误判
+226",含混回应 → 明确不回答,"如何判断对方对伊朗激励方案的看法
+证据：It's hard for me to tell you what's on his mind.",seed42；未知意图线索与后续政策讨论混合，涉及标签边界。
+"误判
+288",明确不回答 → 含混回应,"选举黑人总统对美国的意义
+证据：I don't think I can venture into that territory either.",seed42；完整句对362 token，未截断；拒答信号与其他话题混合。
+"误判
+250",明确回答 → 明确不回答,"Communication with the Defense Secretary
+证据：But I haven't talked to him about the column.",seed42；问题仅为主题短语，独立句对的语境不足。
+"修正
+51",含混回应 → 明确回答,"对Plan B总体持何立场？
+证据：I believe that Plan B ought to be—ought to require a prescription for minors",seed 42/3407；明确给出对未成年人处方要求的立场。
+"修正
+71",含混回应 → 明确不回答,"对外交进程所需时长的看法
+证据：You know, I don't know.",seed 42/2024；明确表示不知道时长，随后谈外交意愿。
+"退化
+29",明确不回答 → 含混回应,"若伊朗未回应激励方案，G-8会否推动提交安理会？
+证据：I said I wasn't going to answer a hypothetical",seed 42；开头拒答假设问题，随后混合政策陈述。

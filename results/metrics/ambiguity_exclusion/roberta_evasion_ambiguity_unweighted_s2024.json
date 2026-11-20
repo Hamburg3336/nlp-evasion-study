@@ -1,0 +1,50 @@
+{
+  "accuracy": 0.5779,
+  "macro_precision": 0.5622,
+  "macro_recall": 0.6372,
+  "macro_f1": 0.5604,
+  "weighted_f1": 0.592,
+  "per_class": {
+    "Clear Reply": {
+      "precision": 0.3947,
+      "recall": 0.7595,
+      "f1": 0.5195,
+      "support": 79
+    },
+    "Ambivalent": {
+      "precision": 0.8374,
+      "recall": 0.5,
+      "f1": 0.6261,
+      "support": 206
+    },
+    "Clear Non-Reply": {
+      "precision": 0.4545,
+      "recall": 0.6522,
+      "f1": 0.5357,
+      "support": 23
+    }
+  },
+  "confusion_matrix": [
+    [
+      60,
+      15,
+      4
+    ],
+    [
+      89,
+      103,
+      14
+    ],
+    [
+      3,
+      5,
+      15
+    ]
+  ],
+  "labels": [
+    "Clear Reply",
+    "Ambivalent",
+    "Clear Non-Reply"
+  ],
+  "decision_rule": "fine_argmax_then_map"
+}

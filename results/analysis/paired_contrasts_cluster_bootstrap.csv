@@ -1,0 +1,6 @@
+﻿contrast,reference,comparison,delta_unrounded_mean,seed42_delta,seed2024_delta,seed3407_delta,bootstrap_low,bootstrap_high,zero_in_interval
+granularity_with_weights,clarity_weighted,evasion_boost_weighted,0.01184843799871571,0.0256,-0.0214,0.0314,-0.026375541849228454,0.04904169376518915,True
+granularity_without_weights,clarity_unweighted,evasion_boost_unweighted,-0.00424460511940894,-0.0084,0.0535,-0.0579,-0.0522336672404515,0.043085423359902675,True
+weighting_direct,clarity_unweighted,clarity_weighted,-0.003137613067502598,-0.0641,0.0514,0.0032,-0.04183922414687952,0.0360394815621867,True
+weighting_hierarchy,evasion_boost_unweighted,evasion_boost_weighted,0.012955430050622052,-0.0301,-0.0235,0.0925,-0.03047207416919586,0.05701919602954129,True
+granularity_by_weighting_interaction,unweighted granularity effect,weighted granularity effect,0.01609304311812465,0.034,-0.0749,0.0893,-0.046637374550875806,0.07817881821499278,True

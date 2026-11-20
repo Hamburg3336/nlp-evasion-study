@@ -1,0 +1,469 @@
+[
+  {
+    "predictions": "results/predictions/primary/control_qnli_finetuned.csv",
+    "metrics": "results/metrics/primary/control_qnli_finetuned.json",
+    "n": 5463,
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "2dfd78a2eeedc955debbd6f5a66b0198382aae6b65b0f70a37cc48934a44c2c4",
+    "source_metric_sha256": "b8fee420cd606c5524904dcc259dcae83b8046712b051fee6324947c27530e49",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/control_qnli_frozen.csv",
+    "metrics": "results/metrics/primary/control_qnli_frozen.json",
+    "n": 5463,
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "f331ad5f1611a8f4e356c4ffbf6507beeaddebfede887250db851da9b785967d",
+    "source_metric_sha256": "9181997ddf66faa2bcb6a774b799d0cd3363829acdcdf98c048e7bc9ed4513ff",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/length_only_s42.csv",
+    "metrics": "results/metrics/primary/length_only_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "232915174975089cbc922a64988346b88c57f96b0820bb0ff8bcf8b3673150a7",
+    "source_metric_sha256": "f4a73f03f8f04d78f9d60332a684af891c6110cdd4237348084365881448d81f",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/majority.csv",
+    "metrics": "results/metrics/primary/majority.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "27d69ca404ab6adb315c1fca2baad69c2286ce1cf147ebdfeb07064653d7a11c",
+    "source_metric_sha256": "fc41bc780c499334c7afc32f16f51d7534ee858e4d9a1ee5cccd9d5e167e08c6",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/roberta_clarity_s2024.csv",
+    "metrics": "results/metrics/primary/roberta_clarity_s2024.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "37c632702ca225a879ee8bb0f3777465ff33f6328a8a1165ca26c32cf5220d19",
+    "source_metric_sha256": "0dc3ac4d32ea59ee5d98d6d321be7fff0e12e5a23585bdf8f576cf5e0f131388",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/roberta_clarity_s3407.csv",
+    "metrics": "results/metrics/primary/roberta_clarity_s3407.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "59527eb12210e2a0e7391bbd06d2e4582a451d9bc74d9b1bb08a33438df9696a",
+    "source_metric_sha256": "0860e9096d79a5acd84d7847adca930cee5a562c3851e6c16abf83535e8b7424",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/roberta_clarity_s42.csv",
+    "metrics": "results/metrics/primary/roberta_clarity_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "13041e52d7e4e7f2706f4725d9353077034ae2e7fa7243f8760c6fbccc934c50",
+    "source_metric_sha256": "ba98b6fa19555500c3414440cb83f046b6b402fff8aecb09b48b41363c81a046",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/roberta_evasion_boost_s2024.csv",
+    "metrics": "results/metrics/primary/roberta_evasion_boost_s2024.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "e05c6bd7310ae5eb79a0f7443d92f80fc9f219747c5e059c0c7abb156fa62d4f",
+    "source_metric_sha256": "81eed3ce5d453b544bf45801b1b10287b5c462d2a390de08b892950e290a952c",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/roberta_evasion_boost_s3407.csv",
+    "metrics": "results/metrics/primary/roberta_evasion_boost_s3407.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "f5e561cd251a6f45ba00e4ead23d1306e6ce8ff0a69be7fcfbf93fc0d87b6ecb",
+    "source_metric_sha256": "1899c95bbb6e5285ccc8301ff8d0a243db524320456b9840f4a1dfd9d099d7a6",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/roberta_evasion_boost_s42.csv",
+    "metrics": "results/metrics/primary/roberta_evasion_boost_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "981c8bf372ca3bc787646ea9ce6e1b8c7626befa7102d2b2fbe0251c4b483b77",
+    "source_metric_sha256": "ac66130bad7da89cf15dadfa3c53640ec5290e004416ca4cb1dbf30207613be6",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/st_all-MiniLM-L6-v2.csv",
+    "metrics": "results/metrics/primary/st_all-MiniLM-L6-v2.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "1379efd057de238e222f5f52dc74154ce0326c095717451e86c0ff8d3cbbe370",
+    "source_metric_sha256": "c725a9d0ff7d16e3d435a835cb20ce2a8462a64aae8623357e361fd35f7db093",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/tfidf_uni_bal_s42.csv",
+    "metrics": "results/metrics/primary/tfidf_uni_bal_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "a4bff21502dfca923f5375fe0acace0966594883afff6ea9eed993bcd77688c2",
+    "source_metric_sha256": "67d66fb859093c14d34a7f843cc36a4267cbb6884d7fe8c9db7ceba9352c0a91",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/tfidf_uni_bi_bal_s42.csv",
+    "metrics": "results/metrics/primary/tfidf_uni_bi_bal_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "f4e15049a139ff1c5b41e13a284e57f0d34f319c54b8bd1661b661a73e819da6",
+    "source_metric_sha256": "f49b325b1bfe437a2d2408794d576d976313d01a23cfecc683200811fe71abf0",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/tfidf_uni_bi_s42.csv",
+    "metrics": "results/metrics/primary/tfidf_uni_bi_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "7275f5e030b95d8e8ea1d5ef6d604753e4a17a0e49d091a24b477693f2d6fac3",
+    "source_metric_sha256": "fb6bb7e2e12a59ea987fc3f74d2917b6c619d8a1896ad8a6da779ab09f95e2d1",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/tfidf_uni_s42.csv",
+    "metrics": "results/metrics/primary/tfidf_uni_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "409ef9738154b0224d464f8c2eac64315c848a4b885a024185dc2b30a5ed3278",
+    "source_metric_sha256": "c6d7859330016ea1d3c116e40e08e01d875eba5721895124c410725e10b80bcf",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/transfer_qnli_finetuned.csv",
+    "metrics": "results/metrics/primary/transfer_qnli_finetuned.json",
+    "n": 5463,
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "07fbea301a468546cfaff0b8a21de447581be8b3146867006b0f81d6ac0bb9b7",
+    "source_metric_sha256": "cb69ecf13e204e7e2fb8059bbdcdbb16cc68f042a3dce1fd27b783bd627ca2be",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/transfer_qnli_frozen.csv",
+    "metrics": "results/metrics/primary/transfer_qnli_frozen.json",
+    "n": 5463,
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "88681dee4d4c14e96effe0f7cafe6c5906de6147860d86abc077abdc0edd0792",
+    "source_metric_sha256": "a52e51e6200635bfeda88164f659ea95bf85f74cbc3e1efc73b4f36325f4a22f",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/primary/transfer_qnli_tfidf.csv",
+    "metrics": "results/metrics/primary/transfer_qnli_tfidf.json",
+    "n": 5463,
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "e300e410259f521eff368fa4b9f96f7476e4dea2f42fb20fc653cfe864538016",
+    "source_metric_sha256": "ef1330916e17857d93a6314a6b8c51dd30ba52f0ff46f830117c56505ae12bf1",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/unweighted/roberta_clarity_unweighted_s2024.csv",
+    "metrics": "results/metrics/unweighted/roberta_clarity_unweighted_s2024.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "2f45a81112907781f8c4bab4c493ff83b995c7449e140a1045c9f81956c3059c",
+    "source_metric_sha256": "eaaa0e4d0c133f8d441c5367791e7b0e65d73cc7e4c3bd430ec3cdd659f55252",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/unweighted/roberta_clarity_unweighted_s3407.csv",
+    "metrics": "results/metrics/unweighted/roberta_clarity_unweighted_s3407.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "15ead9da0d53629c41567b9f3507e1ecfd6228345cb05b6641574fa8cf2fda66",
+    "source_metric_sha256": "3fd890cacbf876aa9bea931d5b91df314d946dac9f0a65ff55bfdc5608adc40a",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/unweighted/roberta_clarity_unweighted_s42.csv",
+    "metrics": "results/metrics/unweighted/roberta_clarity_unweighted_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "9d6a517085811db0068043d900b836d8370786ab8abe36a5bf2595d572c52927",
+    "source_metric_sha256": "0537e312d6e750956e562a059b9452cfbb89e52b9b08426e275722aa5fccf183",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/unweighted/roberta_evasion_boost_unweighted_s2024.csv",
+    "metrics": "results/metrics/unweighted/roberta_evasion_boost_unweighted_s2024.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "fd2d183acbad921b38a80a1e439a6f6ac09e07fb6638db56e73ab7b5c00365c3",
+    "source_metric_sha256": "13b70056d5b8cc135107547e7936b04deb91dbb04b188f84cf209c352b06ff3b",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/unweighted/roberta_evasion_boost_unweighted_s3407.csv",
+    "metrics": "results/metrics/unweighted/roberta_evasion_boost_unweighted_s3407.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "d45e1215dd5a30609df77fbf1fbc61f68aa211ccda1c8c78b1c8515c3413fe4a",
+    "source_metric_sha256": "471f728b9fe9dfc5cd8016d2af775720bc8b68a93367e95a4e93854407ec5132",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/unweighted/roberta_evasion_boost_unweighted_s42.csv",
+    "metrics": "results/metrics/unweighted/roberta_evasion_boost_unweighted_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "b978c871c8e8e9a5cbfaa7e1fd569b412512a064f5ec1b175f513c612b249e21",
+    "source_metric_sha256": "747ac3e09bf67eda707e77652d7c81e7eb51068c4631e23cdb5244da7939a0bf",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/fixed_probe/original.csv",
+    "metrics": "results/metrics/fixed_probe/original.json",
+    "n": 5463,
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "823a80a183d0fa2c30e8aa92c496f6b1d898b5a0b3abe0ef0c89c40cd2534078",
+    "source_metric_sha256": "b8cb88a8e4ea73ec8286825c0af1957a3cea585c4db1de2db89a37c32fbc5961",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/fixed_probe/qevasion_s2024.csv",
+    "metrics": "results/metrics/fixed_probe/qevasion_s2024.json",
+    "n": 5463,
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "6469529dc715f4bfc9041442c6931e0f2d9be4cff7de19630252848bcdd8dae5",
+    "source_metric_sha256": "93fd1ecc92ee97e8ece35d07b2527139567480dc23908569264fa9b664ecab7e",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/fixed_probe/qevasion_s3407.csv",
+    "metrics": "results/metrics/fixed_probe/qevasion_s3407.json",
+    "n": 5463,
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "e3180da9c39a8b235f37fdebce8ac98c55339b663194f7e445e8b03e0e184a94",
+    "source_metric_sha256": "09a1c9fe3753abe262a3a986d20dc43e9dabfc15b81840db6f0b454b9b957a94",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/fixed_probe/qevasion_s42.csv",
+    "metrics": "results/metrics/fixed_probe/qevasion_s42.json",
+    "n": 5463,
+    "labels": [
+      "entailment",
+      "not_entailment"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "5c9d998a557ac67c231bfc8b3249b6f1584a82e4bb751d7f79db542c7731521c",
+    "source_metric_sha256": "a951ceaf933c9992352bed8ff9fd61042140f73e06195e4ec7656ba8143eab9e",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/ambiguity_exclusion/roberta_evasion_ambiguity_unweighted_s2024.csv",
+    "metrics": "results/metrics/ambiguity_exclusion/roberta_evasion_ambiguity_unweighted_s2024.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "a9f1a8348c5aee40e3494df068b97fab2ce59d1f1fbc80113530a7b927bf3494",
+    "source_metric_sha256": "f16ff7432157c1ce969c436312818f1422137fb28ab1eb85547d801f349dfdd3",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/ambiguity_exclusion/roberta_evasion_ambiguity_unweighted_s3407.csv",
+    "metrics": "results/metrics/ambiguity_exclusion/roberta_evasion_ambiguity_unweighted_s3407.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "54a5cc3be2de46a77e2b849edf51a939b1036919c4c7bdefb07323698707ea02",
+    "source_metric_sha256": "8a684eb1bace6ed539ac49f3a7cf60c2a7a07b08a6ae19a5ae6853383d69f89e",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/ambiguity_exclusion/roberta_evasion_ambiguity_unweighted_s42.csv",
+    "metrics": "results/metrics/ambiguity_exclusion/roberta_evasion_ambiguity_unweighted_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "a97baa0ee4ce6ad1b1b9a87a06fa4353d6a2377ee64d642656c6e9a023228b3c",
+    "source_metric_sha256": "5fbbba2a1bdbca5a60545b6cb0412bcbc83fdec8c013a4f05f6e1dbb17cca150",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/ambiguity_exclusion/roberta_evasion_ambiguity_weighted_s2024.csv",
+    "metrics": "results/metrics/ambiguity_exclusion/roberta_evasion_ambiguity_weighted_s2024.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "7826e08589aa77f116e3eafb198483c0e2034ef74d041888b1d2bd0c2f312d63",
+    "source_metric_sha256": "ad9624834b212648a45ca0364bc9924845f916b7d32fa4f6cf8235c1c01aacc8",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/ambiguity_exclusion/roberta_evasion_ambiguity_weighted_s3407.csv",
+    "metrics": "results/metrics/ambiguity_exclusion/roberta_evasion_ambiguity_weighted_s3407.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "2d3dd77f33f9e8569b0c6ae91b2ab815bfcc207d9740064b7403efd3ff95964b",
+    "source_metric_sha256": "8047578acf2099a70f5dc2c7ceb9008a4fe93ebf45525af1fc4455966b4a6636",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  },
+  {
+    "predictions": "results/predictions/ambiguity_exclusion/roberta_evasion_ambiguity_weighted_s42.csv",
+    "metrics": "results/metrics/ambiguity_exclusion/roberta_evasion_ambiguity_weighted_s42.json",
+    "n": 308,
+    "labels": [
+      "Clear Reply",
+      "Ambivalent",
+      "Clear Non-Reply"
+    ],
+    "gold_column": "gold",
+    "source_prediction_sha256": "c9e55dc9b33c8b7d85296a4b3521cb5b2aa31555243cfae09213e0e0ca9d5b3d",
+    "source_metric_sha256": "7e8fd6452aa548e856d2e9de21874a6bfdfa9f17a815d8bf78d23b068df6cdee",
+    "transformation": "Only question/answer text columns removed; numerical values and sample order retained."
+  }
+]

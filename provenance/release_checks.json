@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-20",
+  "published_prediction_metric_pairs": 34,
+  "published_metrics_independently_recomputed": true,
+  "answer_group_bootstrap": {
+    "contrasts": 5,
+    "repeats": 5000,
+    "groups": 191,
+    "passed": true
+  },
+  "local_tests": {
+    "offline_results": 6,
+    "protocol": 8,
+    "passed": true
+  },
+  "source_data_regression": {
+    "passed": true,
+    "qevasion_cleaned_frames_equal_original": true,
+    "qnli_split_frames_equal_original": true,
+    "qevasion_train_side_n": 3355,
+    "qevasion_test_n": 308,
+    "qnli_sizes": [
+      25514,
+      4486,
+      5463
+    ],
+    "network_used": false,
+    "original_data_written": false
+  },
+  "ruff_check_passed": true,
+  "ruff_format_passed": true,
+  "cli_help_checked": [
+    "experiment/src/train_encoder.py",
+    "scripts/run_frozen_probe.py"
+  ],
+  "full_retraining_performed": false,
+  "github_actions_remote_run": false,
+  "no_raw_dataset_or_model_weights": true,
+  "no_personal_absolute_paths_or_key_patterns": true,
+  "gitignore_rules_checked": true
+}

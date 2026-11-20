@@ -1,0 +1,96 @@
+{
+  "model": "experiment/models/roberta-base",
+  "target": "evasion",
+  "frozen": false,
+  "class_weight": false,
+  "lr": 2e-05,
+  "batch": 8,
+  "epochs_run": 5,
+  "max_len": 512,
+  "trunc": "longest_first",
+  "seed": 42,
+  "device": "cuda",
+  "elapsed_sec": 279.1,
+  "best_val_macro_f1": 0.5391,
+  "train_log": [
+    {
+      "epoch": 1,
+      "train_loss": 1.9224,
+      "train_acc": 0.2645,
+      "lr": "1.78e-05",
+      "val_evasion_macro_f1": 0.0713,
+      "val_acc": 0.3779,
+      "val_macro_f1": 0.1922
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.7194,
+      "train_acc": 0.3413,
+      "lr": "1.33e-05",
+      "val_evasion_macro_f1": 0.1835,
+      "val_acc": 0.3641,
+      "val_macro_f1": 0.433
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.5257,
+      "train_acc": 0.4112,
+      "lr": "8.89e-06",
+      "val_evasion_macro_f1": 0.2289,
+      "val_acc": 0.3825,
+      "val_macro_f1": 0.483
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.3313,
+      "train_acc": 0.5136,
+      "lr": "4.44e-06",
+      "val_evasion_macro_f1": 0.2436,
+      "val_acc": 0.3871,
+      "val_macro_f1": 0.5391
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.1502,
+      "train_acc": 0.5955,
+      "lr": "0.00e+00",
+      "val_evasion_macro_f1": 0.2448,
+      "val_acc": 0.4101,
+      "val_macro_f1": 0.5379
+    }
+  ],
+  "amp": true,
+  "dynamic_padding": true,
+  "workers": 2,
+  "avg_batch_seq_len": 506.6,
+  "train_n": 3115,
+  "val_n": 217,
+  "test_n": 308,
+  "labels": [
+    "Explicit",
+    "Implicit",
+    "Dodging",
+    "General",
+    "Deflection",
+    "Partial/half-answer",
+    "Declining to answer",
+    "Claims ignorance",
+    "Clarification"
+  ],
+  "class_weights": {
+    "Explicit": 1.0,
+    "Implicit": 1.0,
+    "Dodging": 1.0,
+    "General": 1.0,
+    "Deflection": 1.0,
+    "Partial/half-answer": 1.0,
+    "Declining to answer": 1.0,
+    "Claims ignorance": 1.0,
+    "Clarification": 1.0
+  },
+  "init_from": null,
+  "run_id": "fc02a4a25f5649a09e3861a916c64266",
+  "data_sha256": "a0eaa3100a27c080f55480a96ecbd5fe13bc11d70c9d0f392e381ce304301836",
+  "prediction_precision": "bf16",
+  "decision_rule": "fine_argmax_then_map"
+}

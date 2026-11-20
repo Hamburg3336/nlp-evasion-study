@@ -1,0 +1,309 @@
+sample_index,gold,prediction,prob_Clear Reply,prob_Ambivalent,prob_Clear Non-Reply
+0,Ambivalent,Ambivalent,0.0,1.0,0.0
+1,Ambivalent,Ambivalent,0.0,1.0,0.0
+2,Ambivalent,Ambivalent,0.0,1.0,0.0
+3,Ambivalent,Ambivalent,0.0,1.0,0.0
+4,Ambivalent,Ambivalent,0.0,1.0,0.0
+5,Ambivalent,Ambivalent,0.0,1.0,0.0
+6,Ambivalent,Ambivalent,0.0,1.0,0.0
+7,Ambivalent,Ambivalent,0.0,1.0,0.0
+8,Ambivalent,Ambivalent,0.0,1.0,0.0
+9,Ambivalent,Ambivalent,0.0,1.0,0.0
+10,Ambivalent,Ambivalent,0.0,1.0,0.0
+11,Clear Reply,Ambivalent,0.0,1.0,0.0
+12,Ambivalent,Ambivalent,0.0,1.0,0.0
+13,Clear Reply,Ambivalent,0.0,1.0,0.0
+14,Ambivalent,Ambivalent,0.0,1.0,0.0
+15,Clear Reply,Ambivalent,0.0,1.0,0.0
+16,Ambivalent,Ambivalent,0.0,1.0,0.0
+17,Ambivalent,Ambivalent,0.0,1.0,0.0
+18,Ambivalent,Ambivalent,0.0,1.0,0.0
+19,Ambivalent,Ambivalent,0.0,1.0,0.0
+20,Ambivalent,Ambivalent,0.0,1.0,0.0
+21,Clear Reply,Ambivalent,0.0,1.0,0.0
+22,Ambivalent,Ambivalent,0.0,1.0,0.0
+23,Ambivalent,Ambivalent,0.0,1.0,0.0
+24,Ambivalent,Ambivalent,0.0,1.0,0.0
+25,Ambivalent,Ambivalent,0.0,1.0,0.0
+26,Ambivalent,Ambivalent,0.0,1.0,0.0
+27,Ambivalent,Ambivalent,0.0,1.0,0.0
+28,Ambivalent,Ambivalent,0.0,1.0,0.0
+29,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+30,Clear Reply,Ambivalent,0.0,1.0,0.0
+31,Ambivalent,Ambivalent,0.0,1.0,0.0
+32,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+33,Ambivalent,Ambivalent,0.0,1.0,0.0
+34,Ambivalent,Ambivalent,0.0,1.0,0.0
+35,Ambivalent,Ambivalent,0.0,1.0,0.0
+36,Clear Reply,Ambivalent,0.0,1.0,0.0
+37,Ambivalent,Ambivalent,0.0,1.0,0.0
+38,Ambivalent,Ambivalent,0.0,1.0,0.0
+39,Ambivalent,Ambivalent,0.0,1.0,0.0
+40,Ambivalent,Ambivalent,0.0,1.0,0.0
+41,Ambivalent,Ambivalent,0.0,1.0,0.0
+42,Ambivalent,Ambivalent,0.0,1.0,0.0
+43,Ambivalent,Ambivalent,0.0,1.0,0.0
+44,Ambivalent,Ambivalent,0.0,1.0,0.0
+45,Ambivalent,Ambivalent,0.0,1.0,0.0
+46,Clear Reply,Ambivalent,0.0,1.0,0.0
+47,Ambivalent,Ambivalent,0.0,1.0,0.0
+48,Ambivalent,Ambivalent,0.0,1.0,0.0
+49,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+50,Ambivalent,Ambivalent,0.0,1.0,0.0
+51,Clear Reply,Ambivalent,0.0,1.0,0.0
+52,Ambivalent,Ambivalent,0.0,1.0,0.0
+53,Ambivalent,Ambivalent,0.0,1.0,0.0
+54,Clear Reply,Ambivalent,0.0,1.0,0.0
+55,Ambivalent,Ambivalent,0.0,1.0,0.0
+56,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+57,Ambivalent,Ambivalent,0.0,1.0,0.0
+58,Clear Reply,Ambivalent,0.0,1.0,0.0
+59,Ambivalent,Ambivalent,0.0,1.0,0.0
+60,Clear Reply,Ambivalent,0.0,1.0,0.0
+61,Clear Reply,Ambivalent,0.0,1.0,0.0
+62,Ambivalent,Ambivalent,0.0,1.0,0.0
+63,Clear Reply,Ambivalent,0.0,1.0,0.0
+64,Ambivalent,Ambivalent,0.0,1.0,0.0
+65,Ambivalent,Ambivalent,0.0,1.0,0.0
+66,Clear Reply,Ambivalent,0.0,1.0,0.0
+67,Clear Reply,Ambivalent,0.0,1.0,0.0
+68,Ambivalent,Ambivalent,0.0,1.0,0.0
+69,Clear Reply,Ambivalent,0.0,1.0,0.0
+70,Clear Reply,Ambivalent,0.0,1.0,0.0
+71,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+72,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+73,Clear Reply,Ambivalent,0.0,1.0,0.0
+74,Ambivalent,Ambivalent,0.0,1.0,0.0
+75,Ambivalent,Ambivalent,0.0,1.0,0.0
+76,Clear Reply,Ambivalent,0.0,1.0,0.0
+77,Ambivalent,Ambivalent,0.0,1.0,0.0
+78,Ambivalent,Ambivalent,0.0,1.0,0.0
+79,Ambivalent,Ambivalent,0.0,1.0,0.0
+80,Clear Reply,Ambivalent,0.0,1.0,0.0
+81,Ambivalent,Ambivalent,0.0,1.0,0.0
+82,Ambivalent,Ambivalent,0.0,1.0,0.0
+83,Ambivalent,Ambivalent,0.0,1.0,0.0
+84,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+85,Ambivalent,Ambivalent,0.0,1.0,0.0
+86,Ambivalent,Ambivalent,0.0,1.0,0.0
+87,Clear Reply,Ambivalent,0.0,1.0,0.0
+88,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+89,Clear Reply,Ambivalent,0.0,1.0,0.0
+90,Clear Reply,Ambivalent,0.0,1.0,0.0
+91,Ambivalent,Ambivalent,0.0,1.0,0.0
+92,Ambivalent,Ambivalent,0.0,1.0,0.0
+93,Clear Reply,Ambivalent,0.0,1.0,0.0
+94,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+95,Ambivalent,Ambivalent,0.0,1.0,0.0
+96,Ambivalent,Ambivalent,0.0,1.0,0.0
+97,Clear Reply,Ambivalent,0.0,1.0,0.0
+98,Ambivalent,Ambivalent,0.0,1.0,0.0
+99,Ambivalent,Ambivalent,0.0,1.0,0.0
+100,Ambivalent,Ambivalent,0.0,1.0,0.0
+101,Clear Reply,Ambivalent,0.0,1.0,0.0
+102,Clear Reply,Ambivalent,0.0,1.0,0.0
+103,Ambivalent,Ambivalent,0.0,1.0,0.0
+104,Ambivalent,Ambivalent,0.0,1.0,0.0
+105,Ambivalent,Ambivalent,0.0,1.0,0.0
+106,Ambivalent,Ambivalent,0.0,1.0,0.0
+107,Ambivalent,Ambivalent,0.0,1.0,0.0
+108,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+109,Ambivalent,Ambivalent,0.0,1.0,0.0
+110,Ambivalent,Ambivalent,0.0,1.0,0.0
+111,Ambivalent,Ambivalent,0.0,1.0,0.0
+112,Ambivalent,Ambivalent,0.0,1.0,0.0
+113,Clear Reply,Ambivalent,0.0,1.0,0.0
+114,Ambivalent,Ambivalent,0.0,1.0,0.0
+115,Ambivalent,Ambivalent,0.0,1.0,0.0
+116,Ambivalent,Ambivalent,0.0,1.0,0.0
+117,Clear Reply,Ambivalent,0.0,1.0,0.0
+118,Ambivalent,Ambivalent,0.0,1.0,0.0
+119,Ambivalent,Ambivalent,0.0,1.0,0.0
+120,Ambivalent,Ambivalent,0.0,1.0,0.0
+121,Clear Reply,Ambivalent,0.0,1.0,0.0
+122,Clear Reply,Ambivalent,0.0,1.0,0.0
+123,Ambivalent,Ambivalent,0.0,1.0,0.0
+124,Clear Reply,Ambivalent,0.0,1.0,0.0
+125,Clear Reply,Ambivalent,0.0,1.0,0.0
+126,Ambivalent,Ambivalent,0.0,1.0,0.0
+127,Ambivalent,Ambivalent,0.0,1.0,0.0
+128,Ambivalent,Ambivalent,0.0,1.0,0.0
+129,Ambivalent,Ambivalent,0.0,1.0,0.0
+130,Ambivalent,Ambivalent,0.0,1.0,0.0
+131,Ambivalent,Ambivalent,0.0,1.0,0.0
+132,Ambivalent,Ambivalent,0.0,1.0,0.0
+133,Clear Reply,Ambivalent,0.0,1.0,0.0
+134,Ambivalent,Ambivalent,0.0,1.0,0.0
+135,Ambivalent,Ambivalent,0.0,1.0,0.0
+136,Ambivalent,Ambivalent,0.0,1.0,0.0
+137,Ambivalent,Ambivalent,0.0,1.0,0.0
+138,Ambivalent,Ambivalent,0.0,1.0,0.0
+139,Clear Reply,Ambivalent,0.0,1.0,0.0
+140,Ambivalent,Ambivalent,0.0,1.0,0.0
+141,Clear Reply,Ambivalent,0.0,1.0,0.0
+142,Ambivalent,Ambivalent,0.0,1.0,0.0
+143,Ambivalent,Ambivalent,0.0,1.0,0.0
+144,Clear Reply,Ambivalent,0.0,1.0,0.0
+145,Clear Reply,Ambivalent,0.0,1.0,0.0
+146,Clear Reply,Ambivalent,0.0,1.0,0.0
+147,Clear Reply,Ambivalent,0.0,1.0,0.0
+148,Ambivalent,Ambivalent,0.0,1.0,0.0
+149,Ambivalent,Ambivalent,0.0,1.0,0.0
+150,Clear Reply,Ambivalent,0.0,1.0,0.0
+151,Ambivalent,Ambivalent,0.0,1.0,0.0
+152,Ambivalent,Ambivalent,0.0,1.0,0.0
+153,Ambivalent,Ambivalent,0.0,1.0,0.0
+154,Clear Reply,Ambivalent,0.0,1.0,0.0
+155,Ambivalent,Ambivalent,0.0,1.0,0.0
+156,Ambivalent,Ambivalent,0.0,1.0,0.0
+157,Ambivalent,Ambivalent,0.0,1.0,0.0
+158,Clear Reply,Ambivalent,0.0,1.0,0.0
+159,Ambivalent,Ambivalent,0.0,1.0,0.0
+160,Ambivalent,Ambivalent,0.0,1.0,0.0
+161,Ambivalent,Ambivalent,0.0,1.0,0.0
+162,Ambivalent,Ambivalent,0.0,1.0,0.0
+163,Clear Reply,Ambivalent,0.0,1.0,0.0
+164,Clear Reply,Ambivalent,0.0,1.0,0.0
+165,Clear Reply,Ambivalent,0.0,1.0,0.0
+166,Ambivalent,Ambivalent,0.0,1.0,0.0
+167,Ambivalent,Ambivalent,0.0,1.0,0.0
+168,Ambivalent,Ambivalent,0.0,1.0,0.0
+169,Ambivalent,Ambivalent,0.0,1.0,0.0
+170,Ambivalent,Ambivalent,0.0,1.0,0.0
+171,Clear Reply,Ambivalent,0.0,1.0,0.0
+172,Ambivalent,Ambivalent,0.0,1.0,0.0
+173,Ambivalent,Ambivalent,0.0,1.0,0.0
+174,Clear Reply,Ambivalent,0.0,1.0,0.0
+175,Ambivalent,Ambivalent,0.0,1.0,0.0
+176,Ambivalent,Ambivalent,0.0,1.0,0.0
+177,Ambivalent,Ambivalent,0.0,1.0,0.0
+178,Ambivalent,Ambivalent,0.0,1.0,0.0
+179,Ambivalent,Ambivalent,0.0,1.0,0.0
+180,Ambivalent,Ambivalent,0.0,1.0,0.0
+181,Ambivalent,Ambivalent,0.0,1.0,0.0
+182,Ambivalent,Ambivalent,0.0,1.0,0.0
+183,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+184,Clear Reply,Ambivalent,0.0,1.0,0.0
+185,Ambivalent,Ambivalent,0.0,1.0,0.0
+186,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+187,Ambivalent,Ambivalent,0.0,1.0,0.0
+188,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+189,Ambivalent,Ambivalent,0.0,1.0,0.0
+190,Ambivalent,Ambivalent,0.0,1.0,0.0
+191,Clear Reply,Ambivalent,0.0,1.0,0.0
+192,Ambivalent,Ambivalent,0.0,1.0,0.0
+193,Clear Reply,Ambivalent,0.0,1.0,0.0
+194,Ambivalent,Ambivalent,0.0,1.0,0.0
+195,Ambivalent,Ambivalent,0.0,1.0,0.0
+196,Ambivalent,Ambivalent,0.0,1.0,0.0
+197,Ambivalent,Ambivalent,0.0,1.0,0.0
+198,Clear Reply,Ambivalent,0.0,1.0,0.0
+199,Ambivalent,Ambivalent,0.0,1.0,0.0
+200,Ambivalent,Ambivalent,0.0,1.0,0.0
+201,Ambivalent,Ambivalent,0.0,1.0,0.0
+202,Ambivalent,Ambivalent,0.0,1.0,0.0
+203,Ambivalent,Ambivalent,0.0,1.0,0.0
+204,Ambivalent,Ambivalent,0.0,1.0,0.0
+205,Ambivalent,Ambivalent,0.0,1.0,0.0
+206,Ambivalent,Ambivalent,0.0,1.0,0.0
+207,Ambivalent,Ambivalent,0.0,1.0,0.0
+208,Ambivalent,Ambivalent,0.0,1.0,0.0
+209,Ambivalent,Ambivalent,0.0,1.0,0.0
+210,Ambivalent,Ambivalent,0.0,1.0,0.0
+211,Ambivalent,Ambivalent,0.0,1.0,0.0
+212,Ambivalent,Ambivalent,0.0,1.0,0.0
+213,Ambivalent,Ambivalent,0.0,1.0,0.0
+214,Ambivalent,Ambivalent,0.0,1.0,0.0
+215,Ambivalent,Ambivalent,0.0,1.0,0.0
+216,Ambivalent,Ambivalent,0.0,1.0,0.0
+217,Ambivalent,Ambivalent,0.0,1.0,0.0
+218,Ambivalent,Ambivalent,0.0,1.0,0.0
+219,Clear Reply,Ambivalent,0.0,1.0,0.0
+220,Ambivalent,Ambivalent,0.0,1.0,0.0
+221,Clear Reply,Ambivalent,0.0,1.0,0.0
+222,Ambivalent,Ambivalent,0.0,1.0,0.0
+223,Clear Reply,Ambivalent,0.0,1.0,0.0
+224,Clear Reply,Ambivalent,0.0,1.0,0.0
+225,Ambivalent,Ambivalent,0.0,1.0,0.0
+226,Ambivalent,Ambivalent,0.0,1.0,0.0
+227,Ambivalent,Ambivalent,0.0,1.0,0.0
+228,Ambivalent,Ambivalent,0.0,1.0,0.0
+229,Clear Reply,Ambivalent,0.0,1.0,0.0
+230,Ambivalent,Ambivalent,0.0,1.0,0.0
+231,Ambivalent,Ambivalent,0.0,1.0,0.0
+232,Ambivalent,Ambivalent,0.0,1.0,0.0
+233,Ambivalent,Ambivalent,0.0,1.0,0.0
+234,Ambivalent,Ambivalent,0.0,1.0,0.0
+235,Ambivalent,Ambivalent,0.0,1.0,0.0
+236,Clear Reply,Ambivalent,0.0,1.0,0.0
+237,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+238,Ambivalent,Ambivalent,0.0,1.0,0.0
+239,Clear Reply,Ambivalent,0.0,1.0,0.0
+240,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+241,Ambivalent,Ambivalent,0.0,1.0,0.0
+242,Clear Reply,Ambivalent,0.0,1.0,0.0
+243,Ambivalent,Ambivalent,0.0,1.0,0.0
+244,Ambivalent,Ambivalent,0.0,1.0,0.0
+245,Ambivalent,Ambivalent,0.0,1.0,0.0
+246,Ambivalent,Ambivalent,0.0,1.0,0.0
+247,Clear Reply,Ambivalent,0.0,1.0,0.0
+248,Ambivalent,Ambivalent,0.0,1.0,0.0
+249,Clear Reply,Ambivalent,0.0,1.0,0.0
+250,Clear Reply,Ambivalent,0.0,1.0,0.0
+251,Ambivalent,Ambivalent,0.0,1.0,0.0
+252,Clear Reply,Ambivalent,0.0,1.0,0.0
+253,Ambivalent,Ambivalent,0.0,1.0,0.0
+254,Ambivalent,Ambivalent,0.0,1.0,0.0
+255,Clear Reply,Ambivalent,0.0,1.0,0.0
+256,Ambivalent,Ambivalent,0.0,1.0,0.0
+257,Clear Reply,Ambivalent,0.0,1.0,0.0
+258,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+259,Clear Reply,Ambivalent,0.0,1.0,0.0
+260,Clear Reply,Ambivalent,0.0,1.0,0.0
+261,Ambivalent,Ambivalent,0.0,1.0,0.0
+262,Ambivalent,Ambivalent,0.0,1.0,0.0
+263,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+264,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+265,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+266,Ambivalent,Ambivalent,0.0,1.0,0.0
+267,Clear Reply,Ambivalent,0.0,1.0,0.0
+268,Clear Reply,Ambivalent,0.0,1.0,0.0
+269,Ambivalent,Ambivalent,0.0,1.0,0.0
+270,Ambivalent,Ambivalent,0.0,1.0,0.0
+271,Ambivalent,Ambivalent,0.0,1.0,0.0
+272,Ambivalent,Ambivalent,0.0,1.0,0.0
+273,Ambivalent,Ambivalent,0.0,1.0,0.0
+274,Ambivalent,Ambivalent,0.0,1.0,0.0
+275,Ambivalent,Ambivalent,0.0,1.0,0.0
+276,Ambivalent,Ambivalent,0.0,1.0,0.0
+277,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+278,Ambivalent,Ambivalent,0.0,1.0,0.0
+279,Ambivalent,Ambivalent,0.0,1.0,0.0
+280,Ambivalent,Ambivalent,0.0,1.0,0.0
+281,Ambivalent,Ambivalent,0.0,1.0,0.0
+282,Clear Reply,Ambivalent,0.0,1.0,0.0
+283,Ambivalent,Ambivalent,0.0,1.0,0.0
+284,Ambivalent,Ambivalent,0.0,1.0,0.0
+285,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+286,Ambivalent,Ambivalent,0.0,1.0,0.0
+287,Ambivalent,Ambivalent,0.0,1.0,0.0
+288,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+289,Ambivalent,Ambivalent,0.0,1.0,0.0
+290,Clear Reply,Ambivalent,0.0,1.0,0.0
+291,Clear Reply,Ambivalent,0.0,1.0,0.0
+292,Clear Reply,Ambivalent,0.0,1.0,0.0
+293,Clear Reply,Ambivalent,0.0,1.0,0.0
+294,Ambivalent,Ambivalent,0.0,1.0,0.0
+295,Ambivalent,Ambivalent,0.0,1.0,0.0
+296,Ambivalent,Ambivalent,0.0,1.0,0.0
+297,Ambivalent,Ambivalent,0.0,1.0,0.0
+298,Clear Reply,Ambivalent,0.0,1.0,0.0
+299,Clear Reply,Ambivalent,0.0,1.0,0.0
+300,Clear Non-Reply,Ambivalent,0.0,1.0,0.0
+301,Ambivalent,Ambivalent,0.0,1.0,0.0
+302,Ambivalent,Ambivalent,0.0,1.0,0.0
+303,Ambivalent,Ambivalent,0.0,1.0,0.0
+304,Ambivalent,Ambivalent,0.0,1.0,0.0
+305,Clear Reply,Ambivalent,0.0,1.0,0.0
+306,Ambivalent,Ambivalent,0.0,1.0,0.0
+307,Clear Reply,Ambivalent,0.0,1.0,0.0

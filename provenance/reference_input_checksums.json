@@ -1,0 +1,26 @@
+{
+  "data/raw/test-00000-of-00001.parquet": {
+    "sha256": "d1de67bd7b7ea68b7f49fcd1f468fd434bc2de3d84146c9217d36713c0546298",
+    "bytes": 258928
+  },
+  "data/raw/train-00000-of-00001.parquet": {
+    "sha256": "eca7855ada118a526cc0361d745b0a55534ca35b8b604d2f9cec4257c5f9fcb3",
+    "bytes": 3898012
+  },
+  "models/all-MiniLM-L6-v2/config.json": {
+    "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+    "bytes": 612
+  },
+  "models/roberta-base/config.json": {
+    "sha256": "ef0185e2aae6e06c5f105a285006952c340e20c7dbf43c86ec82601b13fc45e9",
+    "bytes": 481
+  },
+  "models/all-MiniLM-L6-v2/model.safetensors": {
+    "sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+    "bytes": 90868376
+  },
+  "models/roberta-base/model.safetensors": {
+    "sha256": "5bde1d28afb363d0103324efeb5afc8b2b397fe5e04beabb9b1ef355255ade81",
+    "bytes": 498818054
+  }
+}

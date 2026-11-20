@@ -1,0 +1,6 @@
+-r requirements.txt
+torch>=2.7,<3
+transformers>=4.40,<6
+sentence-transformers>=2.7,<7
+safetensors>=0.4
+huggingface-hub>=0.23,<2

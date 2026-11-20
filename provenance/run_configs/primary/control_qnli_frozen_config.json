@@ -1,0 +1,77 @@
+{
+  "model": "experiment/models/roberta-base",
+  "target": "clarity",
+  "frozen": true,
+  "class_weight": true,
+  "lr": 2e-05,
+  "batch": 8,
+  "epochs_run": 5,
+  "max_len": 512,
+  "trunc": "longest_first",
+  "seed": 42,
+  "device": "cuda",
+  "elapsed_sec": 238.1,
+  "best_val_macro_f1": 0.6301,
+  "train_log": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6942,
+      "train_acc": 0.5107,
+      "lr": "1.78e-05",
+      "val_acc": 0.5566,
+      "val_macro_f1": 0.4656
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6895,
+      "train_acc": 0.5481,
+      "lr": "1.33e-05",
+      "val_acc": 0.5497,
+      "val_macro_f1": 0.4498
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6857,
+      "train_acc": 0.57,
+      "lr": "8.89e-06",
+      "val_acc": 0.63,
+      "val_macro_f1": 0.6281
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6835,
+      "train_acc": 0.5802,
+      "lr": "4.44e-06",
+      "val_acc": 0.6175,
+      "val_macro_f1": 0.6044
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.681,
+      "train_acc": 0.5888,
+      "lr": "0.00e+00",
+      "val_acc": 0.6302,
+      "val_macro_f1": 0.6301
+    }
+  ],
+  "amp": true,
+  "dynamic_padding": true,
+  "workers": 2,
+  "avg_batch_seq_len": 80.8,
+  "train_n": 25514,
+  "val_n": 4486,
+  "test_n": 5463,
+  "labels": [
+    "entailment",
+    "not_entailment"
+  ],
+  "class_weights": {
+    "entailment": 1.0029088050314465,
+    "not_entailment": 0.9971080193840863
+  },
+  "init_from": null,
+  "run_id": "36a69ea00a064fa3abff11028794d3e4",
+  "data_sha256": "fb9265dcd8cc05cc8c4423c235e341ce75cd0c77cad092918fe6e34c6410d0a0",
+  "prediction_precision": "bf16",
+  "decision_rule": "argmax"
+}

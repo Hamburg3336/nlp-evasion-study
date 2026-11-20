@@ -1,0 +1,7 @@
+﻿项目,QEvasion,QNLI
+输入字段,question / interview_answer,question / sentence
+拟合 / 开发 / 测试,3138 / 217 / 308,25514 / 4486 / 5463
+标签,三类清晰度；训练侧另有九类策略,entailment / not_entailment
+内部划分依据,title 标题组,规范化 question 组
+最终评测来源,本地官方 test,GLUE validation 固定为本地 test
+开发集用途,配置／轮次选择，九类误差诊断,配置／轮次选择

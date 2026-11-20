@@ -1,0 +1,13 @@
+﻿arm,seed,epochs_run,selected_epoch,best_val_macro_f1,selected_dev_fine_f1,elapsed_sec,batch,lr,max_len,trunc,precision,data_sha256,run_id
+clarity_weighted,42,5,5,0.5506,,450.7,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,323a8081a0c74aabb8e1a8d7baddf2a0
+clarity_weighted,2024,5,4,0.5222,,465.8,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,323a8081a0c74aabb8e1a8d7baddf2a0
+clarity_weighted,3407,5,4,0.5141,,467.7,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,323a8081a0c74aabb8e1a8d7baddf2a0
+evasion_boost_weighted,42,5,4,0.5299,0.2311,482.6,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,323a8081a0c74aabb8e1a8d7baddf2a0
+evasion_boost_weighted,2024,5,5,0.5262,0.244,289.6,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,36a69ea00a064fa3abff11028794d3e4
+evasion_boost_weighted,3407,5,5,0.5108,0.2409,287.3,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,36a69ea00a064fa3abff11028794d3e4
+clarity_unweighted,42,5,4,0.5254,,285.8,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,85b21a9f60ac4a508e6af85f2bc029cf
+clarity_unweighted,2024,4,2,0.458,,230.1,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,85b21a9f60ac4a508e6af85f2bc029cf
+clarity_unweighted,3407,5,3,0.4981,,282.8,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,85b21a9f60ac4a508e6af85f2bc029cf
+evasion_boost_unweighted,42,5,5,0.5263,0.2189,283.4,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,85b21a9f60ac4a508e6af85f2bc029cf
+evasion_boost_unweighted,2024,5,4,0.546,0.263,279.5,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,85b21a9f60ac4a508e6af85f2bc029cf
+evasion_boost_unweighted,3407,5,3,0.5316,0.2071,283.9,8,2e-05,512,longest_first,bf16,d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc,85b21a9f60ac4a508e6af85f2bc029cf

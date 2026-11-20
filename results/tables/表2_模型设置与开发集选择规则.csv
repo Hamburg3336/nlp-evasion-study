@@ -1,0 +1,7 @@
+﻿模型／设置,表示与训练参数,选择规则与种子
+多数类,按拟合标签频数输出 Ambivalent,无调参；单次
+TF-IDF + LR,unigram；max_features=50000；min_df=2；balanced LR,四个候选按开发集 Macro-F1 选定；42
+ST + LR,冻结 all-MiniLM-L6-v2；每段512；四块特征1536维；标准化LR,开发集选不加权LR；42
+QEvasion RoBERTa,句对512；batch=8；lr=2×10⁻⁵；最多5轮；三／九类×加权／全1,开发集三类 Macro-F1 选轮次；42/2024/3407
+QNLI 四组控制,原始／源监督初始化×冻结／整体微调；新二类头；batch=8；lr=2×10⁻⁵；最多5轮,独立目标开发集选轮次；42
+固定表示探测,两种编码器eval；CLS 768维；StandardScaler＋balanced L2逻辑回归,相同四个C按开发集选定；源seed42

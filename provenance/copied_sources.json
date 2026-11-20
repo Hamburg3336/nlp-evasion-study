@@ -1,0 +1,234 @@
+[
+  {
+    "path": "experiment/src/adapters.py",
+    "original_sha256": "275124d0b9a5c6c4416127e9c206558e08b7c83621a44d2b5bdcdc94ce4fd929"
+  },
+  {
+    "path": "experiment/src/backfill_proba.py",
+    "original_sha256": "034289b28b3921e56acd7705c1f6aef7b379691a1ddffef5962c07c710ba94ab"
+  },
+  {
+    "path": "experiment/src/clean_data.py",
+    "original_sha256": "712c4a60844ae303936a2667f838c3410d292bcb8f2eeefc37dee84a326a8b20"
+  },
+  {
+    "path": "experiment/src/config.py",
+    "original_sha256": "11e5d6148d551e6b21566f88f0b8baafd8b1eeb63f217771de7add1b983fa69e"
+  },
+  {
+    "path": "experiment/src/data_prep.py",
+    "original_sha256": "abe876f0f317a50d97ecca97ea2296988bc62b3670f6130ba302f128a4f54da4"
+  },
+  {
+    "path": "experiment/src/diagnose_data.py",
+    "original_sha256": "ac8d3f46943e935dc333297a30d1d71f12586b48b6a44f5edda22c351c001c12"
+  },
+  {
+    "path": "experiment/src/eda.py",
+    "original_sha256": "94df8e2a83aa187d5468ee8a02313881a6471f993dd18f280cf89b272cd1c37a"
+  },
+  {
+    "path": "experiment/src/error_analysis.py",
+    "original_sha256": "b44d13c6c024075678f8e27f8b44afdb96793423c65f017613e7d04449e25a96"
+  },
+  {
+    "path": "experiment/src/evaluate.py",
+    "original_sha256": "fc8a9f9fd37181d07583f2fc21ca8b43b0720e324c6f855e2ad1893ab7852f7e"
+  },
+  {
+    "path": "experiment/src/fetch_model.py",
+    "original_sha256": "6e1e1a77e2eca616e859a7227d8533be97a47897b8ac80129a4df94213a0919d"
+  },
+  {
+    "path": "experiment/src/plot_run_output.py",
+    "original_sha256": "dcdb479128c3c27bf93fdc34f94c21b709d79c7d7cf78f1587dfc2a691d0e31c"
+  },
+  {
+    "path": "experiment/src/plot_training.py",
+    "original_sha256": "aab7913027a9ddd6fc29fa89c08f3e8aa4976d367ad33dda4d4914eebd87fd5e"
+  },
+  {
+    "path": "experiment/src/protocol.py",
+    "original_sha256": "e6d816b7593440f591457e99619b970bcde0e2d8780bb960f4087ae7e0e02912"
+  },
+  {
+    "path": "experiment/src/run_supplement.py",
+    "original_sha256": "7fc69ed0aa5437e2d680ecb24aeaa437a8a9456277fe1582ce03928646d5bfd7"
+  },
+  {
+    "path": "experiment/src/select_model.py",
+    "original_sha256": "350555087b895eb09472d885fc1f04c8aa3b9b5f2c0bfc1dbed912fde0302fbd"
+  },
+  {
+    "path": "experiment/src/summarize.py",
+    "original_sha256": "b1a09a138630ed7f3135480ae18261e66c874f64985b73b957009256eec529aa"
+  },
+  {
+    "path": "experiment/src/supplement_analysis.py",
+    "original_sha256": "3d9c8ff461849bcd2cdf71f5c8538cd03de620eb7324bf406af100f8006312d5"
+  },
+  {
+    "path": "experiment/src/train_encoder.py",
+    "original_sha256": "8a09fae1204d3fe2cd46e9aa685080b2aef858848cda8445488002ca248a1cc0"
+  },
+  {
+    "path": "experiment/src/train_st.py",
+    "original_sha256": "3884fdd49993b5c0145e9976428228eb1ee76c66bd076a64f7567928d967c731"
+  },
+  {
+    "path": "experiment/src/train_tfidf.py",
+    "original_sha256": "8472142436e2f1b2be5008d252f07438c575e213056d8a1e65aa0f91461f15e4"
+  },
+  {
+    "path": "experiment/src/transfer.py",
+    "original_sha256": "c2bd51128e66cac5d7f0279bc88fd0e5f8699a45ffd7cd24a9cb150dcb42be34"
+  },
+  {
+    "path": "experiment/src/verify_artifacts.py",
+    "original_sha256": "6a80c58ff4a8f23e8ca61cdc1dade84d3d4d82f4bb39285ecdf9a8ca4a838685"
+  },
+  {
+    "path": "experiment/run_all.py",
+    "original_sha256": "b6269b9610ddbebfc6e6558ec0e4d93a4af66deac48ef16bd47faec8e6a7c4b8"
+  },
+  {
+    "path": "experiment/tests/test_protocol.py",
+    "original_sha256": "4e176c283511c2de05ecf676344743b62ef7d3b03cf468366a22420ad55bca61"
+  },
+  {
+    "path": "requirements-lock.reference.txt",
+    "original_sha256": "ebd818ab2ce94d57d749867c51870f037370f8876ebd39b4f56eae56ab2a6bea"
+  },
+  {
+    "path": "provenance/reference_input_checksums.json",
+    "original_sha256": "f6c38c0a95aa20c9690fa07966c577f6a27d02938ae20c8d4fb2465f3fdcce3d"
+  },
+  {
+    "path": "scripts/artifact_io.py",
+    "original_sha256": "a8ef94518098e5060ff32c7aeba0427189f8f4c7aa9bd3b9cece78eb43e590a7"
+  },
+  {
+    "path": "scripts/hierarchy_analysis.py",
+    "original_sha256": "ea96b5525b7feff7f6646af6a1235c2e435dd82155dbc852d00cba8562f458d3"
+  },
+  {
+    "path": "scripts/audit_overlap_length.py",
+    "original_sha256": "856f0cfefb920366b2b402564c452862dd161eb2fd7eafed1cab0fce062e91e1"
+  },
+  {
+    "path": "scripts/export_control_dev.py",
+    "original_sha256": "3b882fd5467c308cf6b894ca82a9c97ee429c0db6e27d1e43679bbe245d9b74e"
+  },
+  {
+    "path": "scripts/analyze_weight_controls.py",
+    "original_sha256": "78b200fa24e6b9a3732833092b8e44b6a6cd03579ffb4ce3910f06416dafd3f6"
+  },
+  {
+    "path": "scripts/analyze_ambiguity_controls.py",
+    "original_sha256": "694401424c663c42d25f379bfbc63dd9d6d5a2fb96ed5b068da8b88ab12f23a8"
+  },
+  {
+    "path": "scripts/run_weight_controls.py",
+    "original_sha256": "c076c077ed07a85917c32666ed85b4715bbf6f1536be5c123804a5f7d0412f4c"
+  },
+  {
+    "path": "scripts/run_ambiguity_controls.py",
+    "original_sha256": "05f7ab55eaa81b603fa3a1d2dcab32a65b6403125cef45d10de3d4dae4d5f93c"
+  },
+  {
+    "path": "scripts/run_frozen_probe.py",
+    "original_sha256": "2aa1d2f0614dcfc80f5a564626502e57545ad67fed652446cec02fa7bb8e8bda"
+  },
+  {
+    "path": "scripts/plot_supplement.py",
+    "original_sha256": "bdcb392c49179c0a195c493f22348cfa2b335ccc65247b0c31535a36912da946"
+  },
+  {
+    "path": "scripts/audit_raw_fine_labels.py",
+    "original_sha256": "66a0736fdc9420cf008bba567fc990c1498d89dcaf446b224f0208eb598b5e14"
+  },
+  {
+    "path": "审核记录/原始细标签冲突审核_20261116.json",
+    "original_sha256": "acf5f6aad5c305fbe33d510de86afd79ad3ea43fde6802b3f7d5b5dacc4ae107"
+  },
+  {
+    "path": "results/figures/图1_标签层级与研究流程.png",
+    "original_sha256": "cbf29b41e8aa46efa28452908d5fc1a898945e02e3cb9488850096a41e4c5f46"
+  },
+  {
+    "path": "results/figures/图1_标签层级与研究流程.svg",
+    "original_sha256": "b3db0573c91eaf323ed404fe30d7dce1a012c3b5318c8fb9098fe3a602e447b5"
+  },
+  {
+    "path": "results/figures/图2_拟合开发测试标签分布.png",
+    "original_sha256": "cdcee934f8159a3c5c42248ec2b848997fa776e376d56d8166b6b0cc02c61665"
+  },
+  {
+    "path": "results/figures/图2_拟合开发测试标签分布.svg",
+    "original_sha256": "abb4c04c2d75b1ac81d8d652f6dfe84cf0202f825da67e571dbbcc9985ca3ae6"
+  },
+  {
+    "path": "results/figures/图3_类别F1与权重粒度取舍.png",
+    "original_sha256": "c74fac680e9da89ae14ac65ed48313575634da73a62c5ddd980533cedbed5f45"
+  },
+  {
+    "path": "results/figures/图3_类别F1与权重粒度取舍.svg",
+    "original_sha256": "3a08f73a17a2f0aacdff3b52755a60d905f7d318aa73914ed3583bf0d7a065ce"
+  },
+  {
+    "path": "results/figures/图4_回答长度与标签构成.png",
+    "original_sha256": "ea8b5df4d0992f641dacc4a37f054678cd806cd68b1b8db26e757ccd55ab4d4f"
+  },
+  {
+    "path": "results/figures/图4_回答长度与标签构成.svg",
+    "original_sha256": "459d8e7f189bf9169f8373fa6934b203091e837a340ccd767d42e97fc0ac3f09"
+  },
+  {
+    "path": "results/tables/图2_标签计数.csv",
+    "original_sha256": "dfca3926c753c904b4fd80ba0593aaabccafdae4df98f4eb283dc2637359317c"
+  },
+  {
+    "path": "results/tables/表1_数据集与划分用途.csv",
+    "original_sha256": "40635ed42e8d450eb187cd00f56f4311e07ed9fff0b264fe77650ef1ddc52c64"
+  },
+  {
+    "path": "results/tables/表2_模型设置与开发集选择规则.csv",
+    "original_sha256": "f032bb6e73c4c684e82ad4ef69e43d66032b738237910350e16a5be94c9650ff"
+  },
+  {
+    "path": "results/tables/表3_QEvasion基础模型测试结果.csv",
+    "original_sha256": "f293c32ddc060c671d96c89da9226c12928897a52a82ee5d3c31fa600f647526"
+  },
+  {
+    "path": "results/tables/表4_QNLI迁移控制与固定表示探测.csv",
+    "original_sha256": "1f1254fbf85502da0d3c9db22373ad44ce7cb169dfaed553ef8d049df75ffaa4"
+  },
+  {
+    "path": "results/tables/表5_标签粒度与类别权重的控制实验.csv",
+    "original_sha256": "88e101522c2a4db1e502e15fe23c9837a6bb4f6076c0b83ef34554cf0dae4c5e"
+  },
+  {
+    "path": "results/tables/表6_配对差值与回答组bootstrap区间.csv",
+    "original_sha256": "d54b199f68f33648b1d29fc982025c4414e2b5d7b76e63857a07c692d2a0bccc"
+  },
+  {
+    "path": "results/tables/表7_九类开发集错误分解.csv",
+    "original_sha256": "7bd4342129bcda3ab456f5667d4722994df4a7985a68d96edd18e6f94e750684"
+  },
+  {
+    "path": "results/tables/表8_误判与层级方案配对案例.csv",
+    "original_sha256": "535e9d18851fe910815f32709cddc4c77dd4becee9ff3c157357770829babc9e"
+  },
+  {
+    "path": "results/tables/主文表数据.json",
+    "original_sha256": "5fee5ca94ad24704db83fde0136b511a3cd5158b79beec6590e5719157372765"
+  },
+  {
+    "path": "results/tables/附录表数据.json",
+    "original_sha256": "0f86f2f1a602aeba247941cb5ca3bf9eaf7af3b8e0bfac115143aec9c08eadb4"
+  },
+  {
+    "path": "results/analysis/ambiguity_per_seed.csv",
+    "original_sha256": "30e8af5297d115e4fb66733df655741a74e535170c258b877245525eb35b6b23"
+  }
+]

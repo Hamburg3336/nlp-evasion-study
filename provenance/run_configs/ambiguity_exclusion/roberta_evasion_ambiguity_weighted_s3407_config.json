@@ -1,0 +1,87 @@
+{
+  "model": "experiment/models/roberta-base",
+  "target": "evasion",
+  "frozen": false,
+  "class_weight": true,
+  "lr": 2e-05,
+  "batch": 8,
+  "epochs_run": 4,
+  "max_len": 512,
+  "trunc": "longest_first",
+  "seed": 3407,
+  "device": "cuda",
+  "elapsed_sec": 224.9,
+  "best_val_macro_f1": 0.5114,
+  "train_log": [
+    {
+      "epoch": 1,
+      "train_loss": 2.1058,
+      "train_acc": 0.1775,
+      "lr": "1.78e-05",
+      "val_evasion_macro_f1": 0.1675,
+      "val_acc": 0.1982,
+      "val_macro_f1": 0.4013
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.7842,
+      "train_acc": 0.3043,
+      "lr": "1.33e-05",
+      "val_evasion_macro_f1": 0.2229,
+      "val_acc": 0.2995,
+      "val_macro_f1": 0.5114
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.5601,
+      "train_acc": 0.3856,
+      "lr": "8.89e-06",
+      "val_evasion_macro_f1": 0.1983,
+      "val_acc": 0.2811,
+      "val_macro_f1": 0.4279
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.3443,
+      "train_acc": 0.4645,
+      "lr": "4.44e-06",
+      "val_evasion_macro_f1": 0.1923,
+      "val_acc": 0.2673,
+      "val_macro_f1": 0.4912
+    }
+  ],
+  "amp": true,
+  "dynamic_padding": true,
+  "workers": 2,
+  "avg_batch_seq_len": 503.7,
+  "train_n": 3115,
+  "val_n": 217,
+  "test_n": 308,
+  "labels": [
+    "Explicit",
+    "Implicit",
+    "Dodging",
+    "General",
+    "Deflection",
+    "Partial/half-answer",
+    "Declining to answer",
+    "Claims ignorance",
+    "Clarification"
+  ],
+  "class_weights": {
+    "Explicit": 0.36548163792091987,
+    "Implicit": 0.7956577266922095,
+    "Dodging": 0.5416449313162928,
+    "General": 0.9945721583652618,
+    "Deflection": 0.9917223814071952,
+    "Partial/half-answer": 5.089869281045751,
+    "Declining to answer": 2.7252843394575677,
+    "Claims ignorance": 3.0096618357487923,
+    "Clarification": 3.978288633461047
+  },
+  "init_from": null,
+  "run_id": "fc02a4a25f5649a09e3861a916c64266",
+  "data_sha256": "a0eaa3100a27c080f55480a96ecbd5fe13bc11d70c9d0f392e381ce304301836",
+  "prediction_precision": "bf16",
+  "decision_rule": "fine_argmax_then_map"
+}

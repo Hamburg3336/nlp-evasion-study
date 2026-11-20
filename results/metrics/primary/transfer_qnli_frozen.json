@@ -1,0 +1,36 @@
+{
+  "accuracy": 0.7461,
+  "macro_precision": 0.7464,
+  "macro_recall": 0.7463,
+  "macro_f1": 0.7461,
+  "weighted_f1": 0.7461,
+  "per_class": {
+    "entailment": {
+      "precision": 0.7352,
+      "recall": 0.7605,
+      "f1": 0.7477,
+      "support": 2702
+    },
+    "not_entailment": {
+      "precision": 0.7575,
+      "recall": 0.732,
+      "f1": 0.7445,
+      "support": 2761
+    }
+  },
+  "confusion_matrix": [
+    [
+      2055,
+      647
+    ],
+    [
+      740,
+      2021
+    ]
+  ],
+  "labels": [
+    "entailment",
+    "not_entailment"
+  ],
+  "decision_rule": "argmax"
+}

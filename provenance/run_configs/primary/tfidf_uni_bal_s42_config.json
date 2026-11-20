@@ -1,0 +1,17 @@
+{
+  "name": "tfidf_uni_bal",
+  "ngram_range": [
+    1,
+    1
+  ],
+  "class_weight": "balanced",
+  "seed": 42,
+  "train_n": 3138,
+  "val_n": 217,
+  "test_n": 308,
+  "analyzer": "word",
+  "actual_features": 11166,
+  "val_macro_f1": 0.3855,
+  "max_features": 50000,
+  "data_sha256": "d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc"
+}

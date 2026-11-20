@@ -1,0 +1,24 @@
+{
+  "model": "experiment/models/all-MiniLM-L6-v2",
+  "max_seq_length": 512,
+  "features": "[u, v, |u-v|, u*v]",
+  "classifier": "LogisticRegression",
+  "class_weight": null,
+  "val_macro_f1": 0.3804,
+  "validation_scores": [
+    {
+      "class_weight": null,
+      "macro_f1": 0.3804
+    },
+    {
+      "class_weight": "balanced",
+      "macro_f1": 0.3754
+    }
+  ],
+  "train_n": 3138,
+  "val_n": 217,
+  "test_n": 308,
+  "refit_on_val": false,
+  "seed": 42,
+  "data_sha256": "d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc"
+}

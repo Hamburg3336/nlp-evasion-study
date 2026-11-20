@@ -1,0 +1,79 @@
+{
+  "model": "experiment/models/roberta-base",
+  "target": "clarity",
+  "frozen": false,
+  "class_weight": true,
+  "lr": 2e-05,
+  "batch": 8,
+  "epochs_run": 5,
+  "max_len": 512,
+  "trunc": "longest_first",
+  "seed": 42,
+  "device": "cuda",
+  "elapsed_sec": 450.7,
+  "best_val_macro_f1": 0.5506,
+  "train_log": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0598,
+      "train_acc": 0.4006,
+      "lr": "1.78e-05",
+      "val_acc": 0.553,
+      "val_macro_f1": 0.3872
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8743,
+      "train_acc": 0.5803,
+      "lr": "1.33e-05",
+      "val_acc": 0.5438,
+      "val_macro_f1": 0.4548
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7465,
+      "train_acc": 0.6644,
+      "lr": "8.89e-06",
+      "val_acc": 0.5853,
+      "val_macro_f1": 0.5484
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.615,
+      "train_acc": 0.7205,
+      "lr": "4.44e-06",
+      "val_acc": 0.576,
+      "val_macro_f1": 0.5141
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4755,
+      "train_acc": 0.7817,
+      "lr": "0.00e+00",
+      "val_acc": 0.6037,
+      "val_macro_f1": 0.5506
+    }
+  ],
+  "amp": true,
+  "dynamic_padding": true,
+  "workers": 2,
+  "avg_batch_seq_len": 507.6,
+  "train_n": 3138,
+  "val_n": 217,
+  "test_n": 308,
+  "labels": [
+    "Clear Reply",
+    "Ambivalent",
+    "Clear Non-Reply"
+  ],
+  "class_weights": {
+    "Clear Reply": 1.1045406546990497,
+    "Ambivalent": 0.5620634067705534,
+    "Clear Non-Reply": 3.16969696969697
+  },
+  "init_from": null,
+  "run_id": "323a8081a0c74aabb8e1a8d7baddf2a0",
+  "data_sha256": "d5fc3b3ba6765c25ada0dd9514e036176d06ef2c0072ee308bc45822595384cc",
+  "prediction_precision": "bf16",
+  "decision_rule": "argmax"
+}
